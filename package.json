@@ -1,0 +1,16 @@
+{
+  "name": "ozw-provider",
+  "version": "1.0.0",
+  "description": "nslhome provider for our custom zwave-controller",
+  "main": "ozw-provider.js",
+  "scripts": {
+    "start": "node ozw-provider.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Largent <nicklargent@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nslhome-core": "nslhome/nslhome-core",
+    "socket.io-client": "^1.4.4"
+  }
+}
