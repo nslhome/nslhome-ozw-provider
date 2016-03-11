@@ -5,7 +5,7 @@ NslHome provider for the [OpenZWave Controller](https://github.com/nslhome/zwave
 
 ## Installation
 
-`git clone https://github.com/nslhome/ozw-provider.git`
+`git clone https://github.com/nslhome/nslhome-ozw-provider.git`
 
 MongoDB and RabbitMQ configuration should be provided via the environment variables `NSLHOME_MONGO_URL` and `NSLHOME_RABBIT_URL`.
 
@@ -30,11 +30,11 @@ Provider Config
 
 Run as a standalone application
 
-`node ozw-provider <CONFIG_NAME>`
+`node nslhome-ozw-provider <CONFIG_NAME>`
 
 Include as a module
 
-`require('ozw-provider')(CONFIG_NAME)`
+`require('nslhome-ozw-provider')(CONFIG_NAME)`
 
 ## Release History
 
